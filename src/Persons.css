@@ -1,0 +1,22 @@
+.person{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: .8rem;
+}
+.person-photo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.person-name{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.person-age{
+    color: gray;
+}

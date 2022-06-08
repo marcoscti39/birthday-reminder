@@ -1,0 +1,44 @@
+body{
+    background-color: #f28ab2;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#root{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    min-width: 500px;
+    background-color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: .3rem;
+    padding: 1.7rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    border: none;
+    background-color: #f28ab2;;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: .8rem 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 1rem;
+    
+}
